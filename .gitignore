@@ -1,0 +1,10 @@
+/.idea
+/server/node_modules
+/server/build
+/client/node_modules
+
+# Project exclude paths
+/server/modules/tictactoe.d.ts
+/server/modules/tictactoe.d.ts.map
+/server/modules/tictactoe.js
+/server/modules/tictactoe.js.map
