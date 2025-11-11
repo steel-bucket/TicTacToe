@@ -36,11 +36,6 @@ services:
       - "7349"
       - "7350"
       - "7351"
-    healthcheck:
-      test: [ "CMD", "curl", "-f", "http://localhost:7350/v2/rpc/get_leaderboard" ]
-      interval: 10s
-      timeout: 5s
-      retries: 5
     links:
       - "postgres:db"
     ports:
