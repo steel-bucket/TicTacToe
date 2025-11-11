@@ -5,7 +5,7 @@ class NakamaService {
     this.client = new Client(
       import.meta.env.VITE_NAKAMA_SERVER_KEY || 'defaultkey',
       import.meta.env.VITE_NAKAMA_HOST || 'localhost',
-      import.meta.env.VITE_NAKAMA_PORT || '7350',
+      import.meta.env.VITE_NAKAMA_PORT || '7349',
       import.meta.env.VITE_NAKAMA_USE_SSL === 'true'
     );
     this.session = null;

@@ -1,37 +1,16 @@
 {
+  "files": [
+    "./main.ts",
+  ],
   "compilerOptions": {
-    "target": "es5",
-    "module": "commonjs",
-    "lib": ["es5", "es6"],
-    "rootDir": "./modules",
-    "outDir": "./build",
+    "target": "es2020",
+    "typeRoots": [
+      "./node_modules"
+    ],
+    "outFile": "./build/index.js",
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
-    "moduleResolution": "node",
-    "resolveJsonModule": true,
-    "declaration": true,
-    "declarationMap": true,
-    "sourceMap": true,
-    "allowSyntheticDefaultImports": true,
-    "noImplicitAny": true,
-    "noImplicitThis": true,
-    "strictNullChecks": true,
-    "strictFunctionTypes": true,
-    "strictBindCallApply": true,
-    "strictPropertyInitialization": true,
-    "strictBuiltinIteratorReturn": true,
-    "alwaysStrict": true,
-    "useUnknownInCatchVariables": true
-  },
-  "include": [
-    "modules/**/*.ts",
-    "node_modules/nakama-common/**/*.d.ts"
-  ],
-  "exclude": [
-    "node_modules/@types/jest",
-    "tests",
-    "modules/build"
-  ]
+    "forceConsistentCasingInFileNames": true
+  }
 }

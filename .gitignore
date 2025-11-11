@@ -4,7 +4,7 @@
 /client/node_modules
 
 # Project exclude paths
-/server/modules/tictactoe.d.ts
-/server/modules/tictactoe.d.ts.map
-/server/modules/tictactoe.js
-/server/modules/tictactoe.js.map
+/server/src/tictactoe.d.ts
+/server/src/tictactoe.d.ts.map
+/server/src/tictactoe.js
+/server/src/tictactoe.js.map
