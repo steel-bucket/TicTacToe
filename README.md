@@ -10,21 +10,15 @@ cd server && npm install && cd ..
 cd client && npm install && cd ..
 ```
 
-### 2. Start Backend
-```bash
-docker-compose up -d
-```
-
-Wait 30-60 seconds for services to start.
-
-### 3. Build Server Modules
+### 2. Build Server Modules
 ```bash
 cd server
+docker-compose up -d
 npm run build
 cd ..
 ```
 
-### 4. Start Frontend
+### 3. Start Frontend
 ```bash
 cd client
 npm run dev
