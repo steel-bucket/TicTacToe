@@ -2,6 +2,7 @@
 /server/node_modules
 /server/build
 /client/node_modules
+/dist
 
 # Project exclude paths
 /server/src/tictactoe.d.ts
